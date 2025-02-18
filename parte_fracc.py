@@ -1,15 +1,14 @@
 """
-Inserta el encabezado aquí y escribe tu código abajo
+Parte fraccionaria
 """
 
-# Declaraciones
-CONSTANTE = valor
-
 # Entradas
-entrada = input()
+numero = float(input("Introduzca un número: "))
 
 # Proceso
-
-
+if numero // 1 == numero / 1 :
+    resultado = "No tiene decimales"
+else: 
+    resultado = "Sí tiene decimales"
 # Salidas
-print(salida)
+print(resultado)
